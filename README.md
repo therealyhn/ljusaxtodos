@@ -1,12 +1,34 @@
-# React + Vite
+# 🎶 DJ Website – LJUSA x TODOS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern portfolio website for two DJs – showcasing **solo sets, B2B sets, mashups, edits**, and offering **easy booking options**.  
+Built with **React, Vite, Tailwind CSS v3, and Animate.css** for a sleek, responsive, and dynamic experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Home Page** – modern landing with strong visuals and animated elements
+- **About Page** – short bios, images, and social media links
+- **Booking Page** – book us for solo or B2B sets, with pricing and contact form
+- **Our Work Page** – showcase of our mashups and edits with built-in audio player (future e-commerce ready)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/) – UI framework
+- [Vite](https://vitejs.dev/) – fast build tool
+- [Tailwind CSS v3](https://tailwindcss.com/) – utility-first styling
+- [Animate.css](https://animate.style/) – smooth animations
+
+---
+
+## 📦 Installation & Setup
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/therealyhn/dj-website.git
+cd dj-website
+npm install
+```
