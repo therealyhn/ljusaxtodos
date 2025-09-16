@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center gap-10">
         {/* Logo & tagline */}
         <div>
-          <h3 className="text-white font-heading text-2xl mb-2">LJUSA x TODOS</h3>
+          <h3 className="text-text-primary font-heading text-2xl mb-2">LJUSA<span className="text-primary-indigo">x</span>TODOS</h3>
           <p className="text-text-secondary font-body text-sm">
-            DJs • Producers • Performers
+            DJs<span className="text-primary-cyan"> • </span>Producers<span className="text-primary-cyan"> • </span>Performers
           </p>
         </div>
 
@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full md:w-2/3">
           {/* Ljusa */}
           <div>
-            <h4 className="text-white font-heading mb-4">Ljusa</h4>
+            <h4 className="text-primary-blue font-heading mb-4">LJUSA</h4>
             <ul className="space-y-3 text-text-secondary font-body">
               <li>
                 <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-blue">
@@ -38,7 +38,7 @@ export default function Footer() {
 
           {/* Todos */}
           <div>
-            <h4 className="text-white font-heading mb-4">Todos</h4>
+            <h4 className="text-primary-cyan font-heading mb-4">TODOS</h4>
             <ul className="space-y-3 text-text-secondary font-body">
               <li>
                 <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-blue">

@@ -11,9 +11,9 @@ export default function Navbar() {
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <h1 className="text-white font-bold text-lg">
-                        <span className="text-primary-blue">LJUSA</span>
-                        <span className="text-white">x</span>
-                        <span className="text-primary-cyan">TODOS</span>
+                        <span className="text-text-primary">LJUSA</span>
+                        <span className="text-primary-indigo">x</span>
+                        <span className="text-text-primary">TODOS</span>
                     </h1>
                 </div>
 

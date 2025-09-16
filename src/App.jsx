@@ -3,7 +3,7 @@ import Hero from "./components/hero/Hero";
 import PerformanceStyles from "./components/performance/PerformanceStyles";
 import PerformanceCard from "./components/performance/PerformanceCard";
 import CTA from "./components/cta/CTA";
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
