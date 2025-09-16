@@ -10,7 +10,11 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
-                    <h1 className="text-white font-bold text-lg">LJUSA<span className="text-primary-blue">x</span>TODOS</h1>
+                    <h1 className="text-white font-bold text-lg">
+                        <span className="text-primary-blue">LJUSA</span>
+                        <span className="text-white">x</span>
+                        <span className="text-primary-cyan">TODOS</span>
+                    </h1>
                 </div>
 
                 {/* Links */}
@@ -20,7 +24,7 @@ export default function Navbar() {
                             <button
                                 onClick={() => setActive(link)}
                                 className={`text-sm font-medium transition ${active === link
-                                        ? "text-white border-b-2 border-primary-blue pb-1"
+                                        ? "text-white border-b-2 border-primary-cyan pb-1"
                                         : "text-text-secondary hover:text-white"
                                     }`}
                             >

@@ -9,9 +9,9 @@ export default {
       colors: {
         background: "#0d0d0f",
         primary: {
-          blue: "#3b82f6",
-          pink: "#ec4899",
-          purple: "#8b5cf6",
+          blue: "#2563eb",   // Blue 600
+          cyan: "#06b6d4",   // Cyan 400
+          indigo: "#4338ca", // Indigo 800 za dublje tonove
         },
         text: {
           primary: "#ffffff",
@@ -19,10 +19,11 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
+        heading: ["Poppins", "sans-serif"],
+        body: ["Inter", "sans-serif"],
       },
       backgroundImage: {
-        "gradient-primary": "linear-gradient(90deg, #3b82f6 0%, #ec4899 100%)",
+        "gradient-primary": "linear-gradient(90deg, #2563eb 0%, #06b6d4 100%)",
       },
     },
   },
