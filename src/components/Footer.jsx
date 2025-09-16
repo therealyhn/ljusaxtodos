@@ -59,10 +59,20 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="pt-6 border-t border-gray-700 w-full">
-          <p className="text-text-secondary text-xs font-body mt-4">
+        <div className="pt-6 border-t border-gray-700 w-full flex flex-col items-center gap-2">
+          <p className="text-text-secondary text-xs font-body">
             © {new Date().getFullYear()} LJUSA x TODOS. All rights reserved.
+          </p>
+          <p className="text-text-secondary text-xs font-body">
+            Built by{" "}
+            <a
+              href="https://jovanljusic.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary-cyan hover:underline"
+            >
+              Jovan Ljusic
+            </a>
           </p>
         </div>
       </div>
