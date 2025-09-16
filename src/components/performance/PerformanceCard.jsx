@@ -1,4 +1,4 @@
-export default function PerformanceCard({ icon, title, description, buttonText, buttonColor, image }) {
+export default function PerformanceCard({ icon: Icon, title, description, buttonText, buttonColor, image }) {
     return (
         <div className="bg-background rounded-xl shadow-lg p-6 flex flex-col items-start gap-4 hover:shadow-primary-blue/30 transition">
             {image && (
@@ -6,7 +6,7 @@ export default function PerformanceCard({ icon, title, description, buttonText, 
             )}
 
             <div className="flex items-center gap-2">
-                <span className="text-primary-blue text-xl">{icon}</span>
+                {Icon && <Icon className="text-primary-blue" size={20} />} {/* OVO JE BITNO */}
                 <h3 className="text-xl font-heading text-white">{title}</h3>
             </div>
 
