@@ -1,6 +1,6 @@
 export default function AboutStats() {
   const stats = [
-    { number: "50+", label: "Events Performed", color: "text-primary-blue" },
+    { number: "500+", label: "Events Performed", color: "text-primary-blue" },
     { number: "5+", label: "Years Experience", color: "text-primary-cyan" },
     { number: "25+", label: "Original Edits", color: "text-pink-500" }, // možeš da uskladiš sa svojom paletom
   ];
