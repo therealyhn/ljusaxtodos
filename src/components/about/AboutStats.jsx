@@ -1,12 +1,12 @@
 export default function AboutStats() {
   const stats = [
     { number: "500+", label: "Events Performed", color: "text-primary-blue" },
-    { number: "5+", label: "Years Experience", color: "text-primary-cyan" },
-    { number: "25+", label: "Original Edits", color: "text-pink-500" }, // možeš da uskladiš sa svojom paletom
+    { number: "15+", label: "Years Experience", color: "text-primary-cyan" },
+    { number: "100+", label: "Original Edits", color: "text-primary-indigo" }, // možeš da uskladiš sa svojom paletom
   ];
 
   return (
-    <section className="pb-20">
+    <section className="py-20">
       <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 text-center">
         {stats.map((stat, idx) => (
           <div key={idx}>

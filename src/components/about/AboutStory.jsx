@@ -1,6 +1,6 @@
 export default function AboutStory() {
   return (
-    <section className="py-20 text-center">
+    <section className="py-10 text-center bg-background2">
       <h2 className="text-3xl md:text-4xl font-heading font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
         Our Story
       </h2>
