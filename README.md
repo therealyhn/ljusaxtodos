@@ -11,6 +11,7 @@ Built with **React, Vite, Tailwind CSS v3, and Animate.css** for a sleek, respon
 - **About Page** – short bios, images, and social media links
 - **Booking Page** – book us for solo or B2B sets, with pricing and contact form
 - **Our Work Page** – showcase of our mashups and edits with built-in audio player (future e-commerce ready)
+- **Gallery Page** – images from our gigs
 
 ---
 
