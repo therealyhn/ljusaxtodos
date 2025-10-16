@@ -13,6 +13,7 @@ export default {
           blue: "#2563eb",   // Blue 600
           cyan: "#06b6d4",   // Cyan 400
           indigo: "#4338ca", // Indigo 800 za dublje tonove
+          gradient: "linear-gradient(to right, #4338ca, #06b6d4)",
         },
         text: {
           primary: "#ffffff",

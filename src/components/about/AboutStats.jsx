@@ -6,7 +6,7 @@ export default function AboutStats() {
   ];
 
   return (
-    <section className="py-20">
+    <section className="pb-20 bg-background2">
       <div className="max-w-4xl mx-auto grid md:grid-cols-3 gap-8 text-center">
         {stats.map((stat, idx) => (
           <div key={idx}>

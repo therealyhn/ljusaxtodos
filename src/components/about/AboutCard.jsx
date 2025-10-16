@@ -23,7 +23,7 @@ export default function AboutCard({ name, location, bio, specialties, socials, g
         {specialties.map((tag, idx) => (
           <span
             key={idx}
-            className="px-5 py-3 text-xs rounded-full bg-primary-indigo text-white"
+            className="px-3 py-2 text-sm rounded-full bg-primary-indigo text-white"
           >
             {tag}
           </span>
@@ -33,17 +33,17 @@ export default function AboutCard({ name, location, bio, specialties, socials, g
       {/* Socials */}
       <div className="flex justify-center gap-4 mt-6">
         {socials.instagram && (
-          <a href={socials.instagram} className="hover:text-primary-blue">
+          <a href={socials.instagram} className="hover:text-primary-blue duration-300">
             <Instagram size={24} />
           </a>
         )}
         {socials.twitter && (
-          <a href={socials.twitter} className="hover:text-primary-cyan">
+          <a href={socials.twitter} className="hover:text-primary-cyan duration-300">
             <Facebook size={24} />
           </a>
         )}
         {socials.youtube && (
-          <a href={socials.youtube} className="hover:text-primary-blue">
+          <a href={socials.youtube} className="hover:text-primary-blue duration-300">
             <Youtube size={24} />
           </a>
         )}
