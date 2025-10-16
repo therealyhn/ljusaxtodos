@@ -3,8 +3,9 @@ import { Filter } from "lucide-react";
 export default function GalleryFilters({ active, onChange }) {
     const filters = [
         { key: "all", label: "All" },
-        { key: "solo", label: "Solo" },
+        { key: "solo", label: "Solo Sets" },
         { key: "b2b", label: "B2B Sets" },
+        { key: "studio", label: "Studio Sessions" },
     ];
 
     return (

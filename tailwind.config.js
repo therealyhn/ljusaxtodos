@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        fadeInScale: {
+          "0%": { opacity: "0", transform: "scale(0.95)" },
+          "100%": { opacity: "1", transform: "scale(1)" },
+        },
+      },
+      animation: {
+        fadeInScale: "fadeInScale 0.5s ease-out",
+      },
       colors: {
         background: "#0d0d0f",
         background2: "#141418ff",
