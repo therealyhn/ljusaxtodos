@@ -1,8 +1,8 @@
 export default function AboutStats() {
   const stats = [
-    { number: "500+", label: "Events Performed", color: "text-primary-blue" },
+    { number: "2000+", label: "Events Performed", color: "text-primary-blue" },
     { number: "15+", label: "Years Experience", color: "text-primary-cyan" },
-    { number: "100+", label: "Original Edits", color: "text-primary-indigo" }, // možeš da uskladiš sa svojom paletom
+    { number: "100+", label: "Original Edits", color: "text-primary-indigo" }, 
   ];
 
   return (

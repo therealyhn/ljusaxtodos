@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md shadow-md">
-      <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <h1 className="text-white font-bold text-lg">
@@ -32,7 +32,7 @@ export default function Navbar() {
               <Link
                 to={link.path}
                 onClick={() => setActive(link.path)}
-                className={`text-sm font-medium transition ${
+                className={`text-md uppercase font-medium transition ${
                   active === link.path
                     ? "text-white border-b-2 border-primary-cyan pb-1"
                     : "text-text-secondary hover:text-white"

@@ -1,4 +1,4 @@
-import { MapPin, Instagram, Twitter, Youtube } from "lucide-react";
+import { MapPin, Instagram, Facebook, Youtube } from "lucide-react";
 
 export default function AboutCard({ name, location, bio, specialties, socials, gradient }) {
   return (
@@ -39,7 +39,7 @@ export default function AboutCard({ name, location, bio, specialties, socials, g
         )}
         {socials.twitter && (
           <a href={socials.twitter} className="hover:text-primary-cyan">
-            <Twitter size={18} />
+            <Facebook size={18} />
           </a>
         )}
         {socials.youtube && (
