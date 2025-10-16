@@ -4,6 +4,8 @@ import SectionHeader from "../components/common/SectionHeader";
 import GalleryFilters from "../components/gallery/GalleryFilters";
 import GalleryGrid from "../components/gallery/GalleryGrid";
 import GalleryModal from "../components/gallery/GalleryModal";
+import SectionStats from "../components/common/SectionStats";
+import SectionStory from "../components/common/SectionStory";
 import PlaceHolder1 from "../assets/solo.png";
 import PlaceHolder2 from "../assets/hero-bg.png";
 import Footer from "../components/footer/Footer";
@@ -30,6 +32,17 @@ export default function Gallery() {
         return ALL_PHOTOS.filter(p => p.tag === filter);
     }, [filter]);
 
+    const galleryParagraphs = [
+        "Every image tells a story of our musical journey.", 
+        "From intimate studio sessions to energetic festival performances, these moments capture the essence of our passion for electronic music and collaborative artistry."
+    ];
+
+    const galleryStats = [
+        { number: "1000+", label: "Events Captured", color: "text-primary-blue" },
+        { number: "100+", label: "Venius Visited", color: "text-primary-cyan" },
+        { number: "500+", label: "Photos Taken", color: "text-primary-indigo" },
+    ];
+
     return (
         <div className="bg-background text-white min-h-screen">
             <Navbar />
@@ -41,6 +54,12 @@ export default function Gallery() {
                 photos={filtered}
                 onOpen={(i) => setOpenIndex(i)}
             />
+            <SectionStory
+                title="Capture the Moment"
+                paragraphs={[
+                    galleryParagraphs
+                ]} />
+            <SectionStats stats={galleryStats} />
             <Footer />
 
             {openIndex !== null && (
