@@ -2,7 +2,7 @@ import { Instagram, Youtube, Music2 } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-background pt-12 pb-6 border-t border-primary-cyan">
+    <footer className="bg-background pt-12 pb-6 border-t border-primary-cyan/40">
       <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center gap-10">
         {/* Logo & tagline */}
         <div>
@@ -59,7 +59,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-6 border-t border-primary-blue w-full flex flex-col items-center gap-2">
+        <div className="pt-6 border-t border-primary-blue/40 w-full flex flex-col items-center gap-2">
           <p className="text-text-secondary text-xs font-body">
             © {new Date().getFullYear()} LJUSA x TODOS. All rights reserved.
           </p>

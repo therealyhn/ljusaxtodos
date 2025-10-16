@@ -13,6 +13,7 @@ export default function AboutCards() {
             instagram: "#",
             twitter: "#",
             youtube: "#",
+            soundcloud: "#",
           }}
           gradient="bg-gradient-to-r from-primary-blue to-primary-cyan"
         />
@@ -26,6 +27,7 @@ export default function AboutCards() {
             instagram: "#",
             twitter: "#",
             youtube: "#",
+            soundcloud: "#",
           }}
           gradient="bg-gradient-to-r from-primary-cyan to-purple-600"
         />
