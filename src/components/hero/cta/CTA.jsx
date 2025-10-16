@@ -10,12 +10,12 @@ export default function CTA() {
                     Book us for unforgettable solo or back-to-back performances that will keep the crowd moving all night long.
                 </p>
                 <div className="flex justify-center gap-4">
-                    <button className="px-6 py-3 rounded-lg font-medium bg-black/70 border border-white hover:bg-black transition">
+                    <a href="/booking" className="px-6 py-3 rounded-lg font-medium bg-black/70 border border-white hover:bg-black transition">
                         Booking
-                    </button>
-                    <button className="px-6 py-3 rounded-lg font-medium bg-white text-background hover:opacity-90 transition">
+                    </a>
+                    <a href="/ourwork" className="px-6 py-3 rounded-lg font-medium bg-white text-background hover:opacity-90 transition">
                         Listen to Our Work
-                    </button>
+                    </a>
                 </div>
             </div>
         </section>

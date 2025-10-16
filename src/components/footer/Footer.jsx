@@ -1,69 +1,66 @@
-import { Instagram, Youtube, Music2 } from "lucide-react";
+import { Instagram, Youtube, Music2, Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-background pt-12 pb-6 border-t border-primary-cyan/40">
-      <div className="max-w-7xl mx-auto px-6 flex flex-col items-center text-center gap-10">
+    <footer className="bg-background pt-8 pb-4 border-t border-primary-cyan/40">
+      <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center gap-6">
+
         {/* Logo & tagline */}
         <div>
-          <h3 className="text-text-primary font-heading text-2xl mb-2">LJUSA<span className="text-primary-indigo">x</span>TODOS</h3>
-          <p className="text-text-secondary font-body text-sm">
+          <h3 className="text-text-primary font-heading text-xl mb-1">
+            LJUSA<span className="text-primary-indigo">x</span>TODOS
+          </h3>
+          <p className="text-text-secondary font-body text-xs">
             DJs<span className="text-primary-cyan"> • </span>Producers<span className="text-primary-cyan"> • </span>Performers
           </p>
         </div>
 
-        {/* Socials */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 w-full md:w-2/3">
-          {/* Ljusa */}
-          <div>
-            <h4 className="text-primary-blue font-heading mb-4">LJUSA</h4>
-            <ul className="space-y-3 text-text-secondary font-body">
-              <li>
-                <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-blue">
-                  <Instagram size={16} /> Instagram
-                </a>
-              </li>
-              <li>
-                <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-cyan">
-                  <Music2 size={16} /> SoundCloud
-                </a>
-              </li>
-              <li>
-                <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-blue">
-                  <Youtube size={16} /> YouTube
-                </a>
-              </li>
-            </ul>
+        <div className="flex flex-col md:flex-row items-center justify-between w-full md:w-1/2 gap-4 md:gap-0">
+          {/* LJUSA */}
+          <div className="flex flex-col items-center gap-2">
+            <h4 className="text-primary-blue font-heading text-sm">LJUSA</h4>
+            <div className="flex items-center justify-center gap-4">
+              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+                <Instagram size={18} />
+              </a>
+              <a href="#" className="text-text-secondary hover:text-primary-cyan transition">
+                <Music2 size={18} />
+              </a>
+              <a href="#" className="text-text-secondary hover:text-primary-indigo transition">
+                <Youtube size={18} />
+              </a>
+              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+                <Facebook size={18} />
+              </a>
+            </div>
           </div>
 
-          {/* Todos */}
-          <div>
-            <h4 className="text-primary-cyan font-heading mb-4">TODOS</h4>
-            <ul className="space-y-3 text-text-secondary font-body">
-              <li>
-                <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-blue">
-                  <Instagram size={16} /> Instagram
-                </a>
-              </li>
-              <li>
-                <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-cyan">
-                  <Music2 size={16} /> SoundCloud
-                </a>
-              </li>
-              <li>
-                <a href="#" className="flex items-center justify-center gap-2 hover:text-primary-blue">
-                  <Youtube size={16} /> YouTube
-                </a>
-              </li>
-            </ul>
+          {/* TODOS */}
+          <div className="flex flex-col items-center gap-2">
+            <h4 className="text-primary-cyan font-heading text-sm">TODOS</h4>
+            <div className="flex items-center justify-center gap-4">
+              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+                <Instagram size={18} />
+              </a>
+              <a href="#" className="text-text-secondary hover:text-primary-cyan transition">
+                <Music2 size={18} />
+              </a>
+              <a href="#" className="text-text-secondary hover:text-primary-indigo transition">
+                <Youtube size={18} />
+              </a>
+              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+                <Facebook size={18} />
+              </a>
+            </div>
           </div>
         </div>
 
-        <div className="pt-6 border-t border-primary-blue/40 w-full flex flex-col items-center gap-2">
-          <p className="text-text-secondary text-xs font-body">
+        {/* Copyright */}
+        <div className="pt-4 border-t border-primary-blue/40 w-full flex flex-col items-center gap-1">
+          <p className="text-text-secondary text-[11px] font-body">
             © {new Date().getFullYear()} LJUSA x TODOS. All rights reserved.
           </p>
-          <p className="text-text-secondary text-xs font-body">
+          <p className="text-text-secondary text-[11px] font-body">
             Built by{" "}
             <a
               href="https://jovanljusic.com"
