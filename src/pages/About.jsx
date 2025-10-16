@@ -3,6 +3,7 @@ import AboutCards from "../components/about/AboutCards";
 import AboutStory from "../components/about/AboutStory";
 import AboutStats from "../components/about/AboutStats";
 import Navbar from "../components/nav/Navbar";
+import Footer from "../components/footer/Footer";
 
 export default function About() {
     return (
@@ -14,6 +15,7 @@ export default function About() {
             <AboutCards />
             <AboutStory />
             <AboutStats />
+            <Footer />
         </div>
     );
 }
