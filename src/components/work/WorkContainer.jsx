@@ -1,6 +1,6 @@
 import { useState } from "react";
 import WorkPlayer from "./WorkPlayer";
-import WorkTrackList from "./WorkTracklist";
+import WorkTrackList from "./WorkTrackList";
 import tracksData from "../../data/tracksData";
 
 export default function WorkContainer() {
@@ -8,17 +8,19 @@ export default function WorkContainer() {
   const currentTrack = tracksData[currentIndex];
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-12 flex flex-col gap-10">
-      <WorkPlayer
-        track={currentTrack}
-        onNext={() => setCurrentIndex((i) => (i + 1) % tracksData.length)}
-        onPrev={() => setCurrentIndex((i) => (i - 1 + tracksData.length) % tracksData.length)}
-      />
-      <WorkTrackList
-        tracks={tracksData}
-        currentIndex={currentIndex}
-        onSelect={(index) => setCurrentIndex(index)}
-      />
+    <section className="flex flex-col items-center justify-center py-12 px-6  bg-background">
+      <div className="w-full max-w-5xl flex flex-col gap-10">
+        <WorkPlayer
+          track={currentTrack}
+          onNext={() => setCurrentIndex((i) => (i + 1) % tracksData.length)}
+          onPrev={() => setCurrentIndex((i) => (i - 1 + tracksData.length) % tracksData.length)}
+        />
+        <WorkTrackList
+          tracks={tracksData}
+          currentIndex={currentIndex}
+          onSelect={(index) => setCurrentIndex(index)}
+        />
+      </div>
     </section>
   );
 }
