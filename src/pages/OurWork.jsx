@@ -1,5 +1,7 @@
 import Navbar from "../components/nav/Navbar";
 import SectionHeader from "../components/common/SectionHeader";
+import SectionStory from "../components/common/SectionStory";
+import SectionStats from "../components/common/SectionStats";
 import WorkContainer from "../components/work/WorkContainer";
 import Footer from "../components/footer/Footer";
 
