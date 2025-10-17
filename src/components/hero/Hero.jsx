@@ -1,5 +1,6 @@
-import { Headphones, Music4 } from "lucide-react";
 import heroImg from "../../assets/hero-bg.png";
+import BookButton from "../common/BookButton";
+import OurWorkButton from "../common/OurWorkButton";
 
 export default function Hero() {
     return (
@@ -27,12 +28,8 @@ export default function Hero() {
 
                 {/* CTA Buttons */}
                 <div className="flex justify-center gap-4 animate__animated animate__fadeInUp animate__delay-1s">
-                    <button className="flex items-center gap-2 px-6 py-3 rounded-lg font-medium text-white bg-gradient-primary shadow-md hover:opacity-90 transition">
-                        <Headphones size={18} /> Book a Set
-                    </button>
-                    <button className="flex items-center gap-2 px-6 py-3 rounded-lg font-medium text-white bg-black/70 border border-gray-600 hover:bg-black transition">
-                        <Music4 size={18} /> Our Work
-                    </button>
+                    <BookButton />
+                    <OurWorkButton />
                 </div>
             </div>
         </section>

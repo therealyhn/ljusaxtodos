@@ -1,6 +1,6 @@
 export default function WorkTrackList({ tracks, currentIndex, onSelect }) {
   return (
-    <div className="bg-background2 rounded-2xl border border-primary-indigo/40 overflow-hidden">
+    <div className="bg-background2 rounded-lg border border-primary-indigo/40 overflow-hidden">
       <div className="max-h-[450px] overflow-y-auto scrollbar-thin scrollbar-thumb-primary-cyan/40 scrollbar-track-background/50">
         {tracks.map((track, index) => {
           const active = index === currentIndex;

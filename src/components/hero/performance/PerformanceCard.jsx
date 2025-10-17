@@ -7,7 +7,9 @@ export default function PerformanceCard({
     image,
 }) {
     return (
-        <div className="bg-background rounded-xl shadow-lg p-6 flex flex-col justify-between items-center text-center gap-4 hover:shadow-primary-blue/80 transition">
+        <div className="bg-background2 rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.25)] border-2 border-gray-800 p-6 flex flex-col justify-between
+         items-center text-center gap-4 hover:shadow-primary-indigo/30 
+        hover:-translate-y-1 hover:scale-105 transition duration-500">
             {/* Gornji deo */}
             <div className="flex flex-col items-center gap-4 w-full">
                 {image && (
