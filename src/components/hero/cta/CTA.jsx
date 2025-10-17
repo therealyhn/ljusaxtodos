@@ -1,3 +1,6 @@
+import BookButton from "../../common/BookButton";
+import OurWorkButton from "../../common/OurWorkButton";
+
 export default function CTA() {
     return (
         <section className="relative py-20 bg-gradient-primary text-center text-white">
@@ -10,12 +13,14 @@ export default function CTA() {
                     Book us for unforgettable solo or back-to-back performances that will keep the crowd moving all night long.
                 </p>
                 <div className="flex justify-center gap-4">
-                    <a href="/booking" className="px-6 py-3 rounded-lg font-medium bg-black/70 border border-white hover:bg-black transition">
-                        Booking
-                    </a>
-                    <a href="/ourwork" className="px-6 py-3 rounded-lg font-medium bg-white text-background hover:opacity-90 transition">
-                        Listen to Our Work
-                    </a>
+                    <BookButton
+                        override={true}
+                        className="px-10 py-3 rounded-lg font-medium bg-black border border-white hover:bg-background2 transition"
+                    />
+                    <OurWorkButton
+                        override={true}
+                        className="px-10 py-3 rounded-lg font-medium bg-black border border-white hover:bg-background2 transition"
+                    />
                 </div>
             </div>
         </section>
