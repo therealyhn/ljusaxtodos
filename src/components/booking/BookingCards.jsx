@@ -45,7 +45,7 @@ const bookingOptions = [
 
 export default function BookingCards({ onSelect }) {
     return (
-        <section className="py-20 bg-background2 text-center">
+        <section className="py-20 bg-background text-center">
             <h2 className="text-3xl md:text-4xl font-heading font-bold mb-12 bg-gradient-primary bg-clip-text text-transparent">
                 Choose Your Experience
             </h2>
@@ -55,7 +55,7 @@ export default function BookingCards({ onSelect }) {
                     <div
                         key={index}
                         onClick={() => onSelect(option.title)}
-                        className={`relative bg-background border border-transparent rounded-xl p-8 text-left cursor-pointer
+                        className={`relative bg-background2 border border-transparent rounded-xl p-8 text-left cursor-pointer
             hover:border-primary-cyan/60 hover:shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all duration-300`}
                     >
                         {option.tag && (
