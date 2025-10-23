@@ -10,11 +10,11 @@ export default function BookButton({
         "shadow-lg hover:opacity-90 hover:shadow-primary-cyan/50 transition-all duration-300";
 
     return (
-        <button
+        <a href="/booking"
             onClick={onClick}
             className={override ? className : `${defaultClasses} ${className}`}
         >
             {text}
-        </button>
+        </a>
     );
 }

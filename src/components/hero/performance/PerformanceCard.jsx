@@ -30,11 +30,11 @@ export default function PerformanceCard({
 
             {/* Dugme dole */}
             <div className="mt-4 w-full flex justify-center">
-                <button
+                <a href="/booking"
                     className={`px-4 py-2 rounded-lg font-medium text-white transition ${buttonColor}`}
                 >
                     {buttonText}
-                </button>
+                </a>
             </div>
         </div>
     );

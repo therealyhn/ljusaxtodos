@@ -10,11 +10,11 @@ export default function OurWorkButton({
         "shadow-lg hover:opacity-90 hover:shadow-primary-indigo/50 transition-all duration-300";
 
     return (
-        <button
+        <a href="/our-work"
             onClick={onClick}
             className={override ? className : `${defaultClasses} ${className}`}
         >
             {text}
-        </button>
+        </a>
     );
 }

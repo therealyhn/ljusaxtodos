@@ -15,10 +15,12 @@ export default function CTA() {
                 <div className="flex justify-center gap-4">
                     <BookButton
                         override={true}
+                        href="/booking"
                         className="px-10 py-3 rounded-lg font-medium bg-black border border-white hover:bg-background2 transition"
                     />
                     <OurWorkButton
                         override={true}
+                        href="/our-work"
                         className="px-10 py-3 rounded-lg font-medium bg-black border border-white hover:bg-background2 transition"
                     />
                 </div>
