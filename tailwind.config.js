@@ -18,6 +18,7 @@ export default {
       colors: {
         background: "#0d0d0f",
         background2: "#141418ff",
+        background3: "#1f1f23",
         primary: {
           blue: "#2563eb",   // Blue 600
           cyan: "#06b6d4",   // Cyan 400

@@ -1,4 +1,4 @@
-import { Play, Pause, SkipBack, SkipForward, Share2, Download } from "lucide-react";
+import { Play, Pause, SkipBack, SkipForward, Share2, Download, ArrowBigRightDashIcon } from "lucide-react";
 import { useRef, useState, useEffect } from "react";
 
 export default function WorkPlayer({ track, onNext, onPrev }) {
@@ -90,13 +90,18 @@ export default function WorkPlayer({ track, onNext, onPrev }) {
         </div>
 
         {/* DESNO - Dugmad */}
-        <div className="flex flex-col items-center md:items-end gap-3 w-full md:w-1/3">
+        <div className="flex flex-row items-center md:items-end gap-3 w-full md:w-1/3">
           <button
             onClick={() => window.open(track.src, "_blank")}
             className="flex items-center gap-2 px-5 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-primary-indigo to-primary-cyan shadow-md hover:opacity-90 transition w-40 justify-center"
           >
             <Download size={24} /> Download
           </button>
+          <a href="/booking"
+            className="flex items-center gap-2 px-5 py-3 rounded-lg font-medium text-white bg-gradient-to-r from-primary-indigo to-primary-cyan shadow-md hover:opacity-90 transition w-40 justify-center"
+          >
+            <ArrowBigRightDashIcon size={24} /> Book a Set
+          </a>
         </div>
       </div>
 

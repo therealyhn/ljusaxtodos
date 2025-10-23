@@ -2,7 +2,7 @@ import { Instagram, Youtube, Music2, Facebook } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-background pt-8 pb-4 border-t border-primary-cyan/40">
+    <footer className="bg-background pt-8 pb-4 border-t border-gray-800">
       <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center gap-6">
 
         {/* Logo & tagline */}
