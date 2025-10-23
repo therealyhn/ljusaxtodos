@@ -6,24 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      keyframes: {
-        fadeInScale: {
-          "0%": { opacity: "0", transform: "scale(0.95)" },
-          "100%": { opacity: "1", transform: "scale(1)" },
-        },
-        keyframes: {
-          "pulse-glow": {
-            "0%, 100%": { boxShadow: "0 0 25px rgba(6,182,212,0.5)" },
-            "50%": { boxShadow: "0 0 45px rgba(6,182,212,0.8)" },
-          },
-        },
-        animation: {
-          "pulse-glow": "pulse-glow 2s ease-in-out infinite",
-        },
-      },
-      animation: {
-        fadeInScale: "fadeInScale 0.5s ease-out",
-      },
       colors: {
         background: "#0d0d0f",
         background2: "#141418ff",
