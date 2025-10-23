@@ -20,16 +20,16 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-2">
             <h4 className="text-primary-blue font-heading text-sm">LJUSA</h4>
             <div className="flex items-center justify-center gap-4">
-              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+              <a href="https://www.instagram.com/jovanljusic_asdf/" className="text-text-secondary hover:text-primary-blue transition">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="text-text-secondary hover:text-primary-cyan transition">
+              <a href="https://soundcloud.com/yhnsdmusic" className="text-text-secondary hover:text-primary-cyan transition">
                 <Music2 size={18} />
               </a>
-              <a href="#" className="text-text-secondary hover:text-primary-indigo transition">
+              <a href="https://www.youtube.com/@randomedmmixes2655" className="text-text-secondary hover:text-primary-indigo transition">
                 <Youtube size={18} />
               </a>
-              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+              <a href="https://www.facebook.com/ljusaofficial/" className="text-text-secondary hover:text-primary-blue transition">
                 <Facebook size={18} />
               </a>
             </div>
@@ -39,16 +39,16 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-2">
             <h4 className="text-primary-cyan font-heading text-sm">TODOS</h4>
             <div className="flex items-center justify-center gap-4">
-              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+              <a href="https://www.instagram.com/milostodos/" className="text-text-secondary hover:text-primary-blue transition">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="text-text-secondary hover:text-primary-cyan transition">
+              <a href="https://soundcloud.com/todosofficial" className="text-text-secondary hover:text-primary-cyan transition">
                 <Music2 size={18} />
               </a>
-              <a href="#" className="text-text-secondary hover:text-primary-indigo transition">
+              <a href="https://www.youtube.com/@randomedmmixes2655" className="text-text-secondary hover:text-primary-indigo transition">
                 <Youtube size={18} />
               </a>
-              <a href="#" className="text-text-secondary hover:text-primary-blue transition">
+              <a href="https://www.facebook.com/milostodos" className="text-text-secondary hover:text-primary-blue transition">
                 <Facebook size={18} />
               </a>
             </div>
