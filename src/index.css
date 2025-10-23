@@ -43,3 +43,7 @@
     box-shadow: 0 0 25px rgba(67, 56, 202, 0.6);
   }
 }
+
+.input-field {
+  @apply bg-black/30 border border-primary-cyan/30 text-white text-sm rounded-lg p-3 w-full placeholder:text-text-secondary focus:outline-none focus:ring-2 focus:ring-primary-cyan/60 transition-all;
+}
