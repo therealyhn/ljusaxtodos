@@ -33,22 +33,22 @@ export default function AboutCard({ name, location, bio, specialties, socials, g
       {/* Socials */}
       <div className="flex justify-center gap-4 mt-6">
         {socials.instagram && (
-          <a href={socials.instagram} className="hover:text-primary-blue duration-300">
+          <a href={socials.instagram} target="/blank" className="hover:text-primary-blue duration-300">
             <Instagram size={24} />
           </a>
         )}
-        {socials.twitter && (
-          <a href={socials.twitter} className="hover:text-primary-cyan duration-300">
+        {socials.facebook && (
+          <a href={socials.facebook} target="/blank" className="hover:text-primary-cyan duration-300">
             <Facebook size={24} />
           </a>
         )}
         {socials.youtube && (
-          <a href={socials.youtube} className="hover:text-primary-indigo duration-300">
+          <a href={socials.youtube} target="/blank" className="hover:text-primary-indigo duration-300">
             <Youtube size={24} />
           </a>
         )}
         {socials.soundcloud && (
-          <a href={socials.soundcloud} className="hover:text-primary-cyan duration-300">
+          <a href={socials.soundcloud} target="/blank" className="hover:text-primary-cyan duration-300">
             <Music2 size={24} />
           </a>
         )}
