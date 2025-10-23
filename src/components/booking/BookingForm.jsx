@@ -38,7 +38,7 @@ export default function BookingForm({ selectedService }) {
 
                 <form
                     onSubmit={handleSubmit}
-                    className="bg-black/40 backdrop-blur-md border border-primary-cyan/30 rounded-2xl p-8 shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(6,182,212,0.25)]"
+                    className="bg-black/40 backdrop-blur-md border border-primary-cyan rounded-2xl p-8 shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(6,182,212,0.25)]"
                 >
                     {/* Grid Inputs */}
                     <div className="grid md:grid-cols-2 gap-6">
@@ -73,7 +73,7 @@ export default function BookingForm({ selectedService }) {
                             className="input-field"
                             required
                         />
-                        <input
+                        {/* <input
                             type="text"
                             name="eventType"
                             onChange={handleChange}
@@ -86,7 +86,7 @@ export default function BookingForm({ selectedService }) {
                             onChange={handleChange}
                             placeholder="Expected Attendees"
                             className="input-field"
-                        />
+                        /> */}
                     </div>
 
                     {/* Full width inputs */}
@@ -94,7 +94,7 @@ export default function BookingForm({ selectedService }) {
                         type="text"
                         name="location"
                         onChange={handleChange}
-                        placeholder="Venue Location"
+                        placeholder="Location"
                         className="input-field mt-6 w-full"
                     />
 
@@ -113,7 +113,7 @@ export default function BookingForm({ selectedService }) {
                         <select
                             name="performer"
                             onChange={handleChange}
-                            className="bg-black/40 text-white border border-primary-cyan/40 rounded-lg p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary-cyan/70 transition-all"
+                            className="bg-black text-white border border-primary-cyan/40 rounded-lg p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary-cyan/70 transition-all"
                         >
                             <option value="Ljusa">Ljusa</option>
                             <option value="Todos">Todos</option>
@@ -123,7 +123,7 @@ export default function BookingForm({ selectedService }) {
 
                     {/* Submit */}
                     <div className="mt-8 flex flex-col items-center gap-4">
-                        <p className="text-sm text-text-secondary">
+                        <p className="text-md text-text-secondary">
                             Selected service:{" "}
                             <span className="text-primary-cyan font-medium">
                                 {selectedService || "None"}

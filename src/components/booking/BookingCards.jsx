@@ -1,11 +1,12 @@
 import { PartyPopper, Disc, Users2 } from "lucide-react";
+import 'animate.css';
 
 const bookingOptions = [
     {
         icon: PartyPopper,
         title: "Private Party",
-        price: "€700",
-        duration: "3–5 hours",
+        price: "€100-300",
+        duration: "1–5 hours",
         description: "Perfect for weddings, birthdays, and corporate celebrations.",
         features: [
             "Custom playlist curation",
@@ -17,8 +18,8 @@ const bookingOptions = [
     {
         icon: Disc,
         title: "Club / Bar Set",
-        price: "€900",
-        duration: "2–4 hours",
+        price: "€150",
+        duration: "2–6 hours",
         description: "Elevate your nightlife event with high-energy beats and seamless transitions.",
         features: [
             "Pro DJ setup",
@@ -30,8 +31,8 @@ const bookingOptions = [
     {
         icon: Users2,
         title: "B2B Experience",
-        price: "€1,200",
-        duration: "3–6 hours",
+        price: "€400",
+        duration: "1-6 hours",
         description: "Collaborative set combining the best of both DJs for a powerful back-to-back performance.",
         features: [
             "Dual DJ setup",
