@@ -6,6 +6,7 @@ export default function GalleryFilters({ active, onChange }) {
         { key: "solo", label: "Solo Sets" },
         { key: "b2b", label: "B2B Sets" },
         { key: "studio", label: "Studio Sessions" },
+        { key: "videos", label: "Videos" },
     ];
 
     return (

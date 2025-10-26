@@ -1,4 +1,4 @@
-import heroImg from "../../assets/hero-bg.png";
+import heroImg from "../../assets/7.jpg";
 import BookButton from "../common/BookButton";
 import OurWorkButton from "../common/OurWorkButton";
 

@@ -1,7 +1,7 @@
 import PerformanceCard from "./PerformanceCard";
 import { Headphones, Music4 } from "lucide-react";
-import soloImg from "../../../assets/solo.png"
-import heroImg from "../../../assets/hero-bg.png"
+import soloImg from "../../../assets/4.jpg"
+import heroImg from "../../../assets/9.jpg"
 
 export default function PerformanceStyles() {
     return (
