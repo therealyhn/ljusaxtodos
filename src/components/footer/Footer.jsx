@@ -45,7 +45,7 @@ export default function Footer() {
               <a href="https://soundcloud.com/todosofficial" target="/blank" className="text-text-secondary hover:text-primary-cyan transition">
                 <Music2 size={18} />
               </a>
-              <a href="https://www.youtube.com/@randomedmmixes2655" target="/blank" className="text-text-secondary hover:text-primary-indigo transition">
+              <a href="https://www.youtube.com/@RelaxAndDeep" target="/blank" className="text-text-secondary hover:text-primary-indigo transition">
                 <Youtube size={18} />
               </a>
               <a href="https://www.facebook.com/milostodos" target="/blank" className="text-text-secondary hover:text-primary-blue transition">

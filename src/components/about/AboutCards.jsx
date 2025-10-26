@@ -26,7 +26,7 @@ export default function AboutCards() {
           socials={{
             instagram: "https://www.instagram.com/milostodos/",
             soundcloud: "https://soundcloud.com/todosofficial",
-            youtube: "https://www.youtube.com/@randomedmmixes2655",
+            youtube: "https://www.youtube.com/@RelaxAndDeep",
             facebook: "https://www.facebook.com/milostodos/",
           }}
           gradient="bg-gradient-to-r from-primary-cyan to-purple-600"

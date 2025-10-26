@@ -11,7 +11,7 @@ export default function PerformanceStyles() {
                     Performance Styles
                 </h2>
 
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid md:grid-cols-2 gap-8">
                     <PerformanceCard
                         icon={Music4}
                         title="Solo Performances"
@@ -30,14 +30,14 @@ export default function PerformanceStyles() {
                         image={heroImg}
                     />
 
-                    <PerformanceCard
+                    {/* <PerformanceCard
                         icon={Music4}
                         title="Solo Performances"
                         description="Individual artistry at its finest. Each DJ brings their distinct sound, style, and energy to create unforgettable solo experiences."
                         buttonText="Book Solo Set"
                         buttonColor="bg-gradient-primary hover:opacity-90"
                         image={soloImg}
-                    />
+                    /> */}
                 </div>
             </div>
         </section>
