@@ -1,6 +1,6 @@
 import Navbar from "../components/nav/Navbar";
 import SectionHeader from "../components/common/SectionHeader";
-import WorkContainer from "../components/work/WorkContainer";
+import WorkContainer from "../components/media/WorkContainer";
 
 export default function OurWork() {
     return (

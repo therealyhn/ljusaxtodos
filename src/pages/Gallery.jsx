@@ -16,13 +16,13 @@ import Img5 from "../assets/8.jpg";
 
 const ALL_PHOTOS = [
     { id: 1, src: PlaceHolder1, title: "Solo Performance", tag: "studio" },
-    { id: 2, src: PlaceHolder2, title: "B2B Energy", tag: "studio" },
+    { id: 2, src: PlaceHolder2, title: "B2B Energy", tag: "b2b" },
     { id: 3, src: Img3, title: "In the Zone", tag: "studio" },
-    { id: 4, src: Img4, title: "Crowd Control", tag: "studio" },
+    { id: 4, src: Img4, title: "Crowd Control", tag: "b2b" },
     { id: 5, src: Img5, title: "Studio Lights", tag: "studio" },
-    { id: 6, src: PlaceHolder2, title: "Back to Back", tag: "studio" },
+    { id: 6, src: PlaceHolder2, title: "Back to Back", tag: "b2b" },
     { id: 7, src: PlaceHolder1, title: "studio Session", tag: "studio" },
-    { id: 8, src: PlaceHolder2, title: "Festival Night", tag: "studio" },
+    { id: 8, src: PlaceHolder2, title: "Festival Night", tag: "b2b" },
     { id: 9, src: PlaceHolder1, title: "studio Studio", tag: "studio" },
 ];
 

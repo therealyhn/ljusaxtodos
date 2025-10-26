@@ -1,6 +1,6 @@
 import { useState } from "react";
 import WorkPlayer from "./WorkPlayer";
-import WorkTrackList from "./WorkTrackList";
+import WorkTrackList from "./WorkTracklist";
 import tracksData from "../../data/tracksData";
 
 export default function WorkContainer() {
