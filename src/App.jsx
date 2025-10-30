@@ -11,8 +11,8 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/media" element={<Media />} />
+          <Route path="/o-nama" element={<About />} />
+          <Route path="/galerija" element={<Media />} />
           <Route path="/mashups" element={<Mashups />} />
           <Route path="/booking" element={<Booking />} />
         </Routes>

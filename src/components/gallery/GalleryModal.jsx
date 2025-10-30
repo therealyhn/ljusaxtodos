@@ -48,7 +48,7 @@ export default function GalleryModal({ photos, index, onClose, setIndex }) {
                 <img
                     src={photo.src}
                     alt={photo.title}
-                    className="w-full max-h-[70vh] object-contain rounded-xl border border-gray-800 shadow-2xl"
+                    className="w-full max-h-[70vh] object-contain"
                 />
                 <div className="mt-4 text-center">
                     <h3 className="font-heading text-white">{photo.title}</h3>

@@ -7,30 +7,38 @@ export default function PerformanceCard({
     image,
 }) {
     return (
-        <div className="bg-background2 rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.25)] border-2 border-gray-800 p-6 flex flex-col justify-between
-         items-center text-center gap-4 hover:shadow-primary-indigo/30 
-        hover:-translate-y-1 hover:scale-105 transition duration-500">
+        <div
+            className="bg-background2 rounded-xl shadow-[0px_10px_30px_rgba(0,0,0,0.25)] border-2 border-gray-800 
+      p-6 flex flex-col justify-between items-center text-center gap-4 
+      hover:shadow-primary-indigo/30 hover:-translate-y-1 hover:scale-105 
+      transition duration-500"
+        >
             {/* Gornji deo */}
             <div className="flex flex-col items-center gap-4 w-full">
                 {image && (
-                    <img
-                        src={image}
-                        alt={title}
-                        className="rounded-md w-full object-cover"
-                    />
+                    <div className="w-full aspect-[4/3] overflow-hidden rounded-md">
+                        <img
+                            src={image}
+                            alt={title}
+                            className="w-full h-full object-cover object-center"
+                        />
+                    </div>
                 )}
 
-                <div className="flex items-center justify-center gap-2">
+                <div className="flex items-center justify-center gap-2 mt-2">
                     {Icon && <Icon className="text-primary-blue" size={20} />}
                     <h3 className="text-xl font-heading text-white">{title}</h3>
                 </div>
 
-                <p className="text-text-secondary font-body">{description}</p>
+                <p className="text-text-secondary font-body text-sm md:text-base">
+                    {description}
+                </p>
             </div>
 
             {/* Dugme dole */}
             <div className="mt-4 w-full flex justify-center">
-                <a href="/booking"
+                <a
+                    href="/booking"
                     className={`px-4 py-2 rounded-lg font-medium text-white transition ${buttonColor}`}
                 >
                     {buttonText}
