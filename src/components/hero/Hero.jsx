@@ -5,7 +5,7 @@ import OurWorkButton from "../common/OurWorkButton";
 export default function Hero() {
     return (
         <section
-            className="relative min-h-screen flex items-center justify-center text-center bg-cover bg-center"
+            className="relative min-h-screen flex items-center justify-center text-center bg-contain bg-center"
             style={{
                 backgroundImage: `url(${heroImg})`,
             }}
