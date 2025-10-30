@@ -11,7 +11,7 @@ export default function Hero() {
             }}
         >
             {/* Overlay */}
-            <div className="absolute inset-0 bg-black/50"></div>
+            <div className="absolute inset-0 bg-black/55"></div>
 
             <div className="relative z-10 max-w-3xl mx-auto px-4">
                 <h1 className="text-5xl md:text-8xl font-heading font-bold mb-6 animate__animated animate__fadeInDown">
@@ -20,7 +20,7 @@ export default function Hero() {
                     <span className="text-text-primary">TODOS</span>
                 </h1>
 
-                <p className="text-text-secondary text-xl font-body mb-8 animate__animated animate__fadeInUp">
+                <p className="text-gray-400  text-xl font-body mb-8 animate__animated animate__fadeInUp">
                     Elevating nightlife with powerful beats and seamless transitions.
                     Experience the perfect fusion of individual artistry and collaborative
                     energy.
